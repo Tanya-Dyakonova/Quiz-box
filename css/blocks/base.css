@@ -61,8 +61,7 @@ a {
 }
 
 .wrapper--main {
- /*background: url("../../img/background.jpg");*/
- background-repeat: no-repeat;
+ background: url("/Quiz-box/img/background.jpg") center top no-repeat, url("/Quiz-box/img/background2.jpg") center bottom no-repeat;
 }
 
 .container {
