@@ -11,7 +11,6 @@ html {
 body {
  color: #fff;
  margin: 0;
- background: #17191C;
  ;
 }
 
@@ -61,7 +60,7 @@ a {
 }
 
 .wrapper--main {
- background: url("/Quiz-box/img/background.jpg") center top no-repeat, url("/Quiz-box/img/background2.jpg") center bottom no-repeat;
+ background: #17191c80, url("/Quiz-box/img/background.jpg") center top no-repeat, url("/Quiz-box/img/background2.jpg") center bottom no-repeat, #17191c80;
 }
 
 .container {
