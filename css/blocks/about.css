@@ -7,7 +7,7 @@
  height: 552px;
 }
 
-.about__us, .about__img {
+.about__content, .about__img {
  position: absolute;
  border-radius: 5px;
 }
@@ -16,16 +16,14 @@
  top: 0;
 }
 
-.about__us {
+.about__content {
+ position: absolute;
  z-index: 2;
  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
  right: 0;
  bottom: 0;
  width: 785px;
  height: 455px;
-}
-
-.about__content {
  padding: 73px 202px 66px 81px;
 }
 
