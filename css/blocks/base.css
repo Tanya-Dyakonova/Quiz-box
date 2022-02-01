@@ -60,7 +60,7 @@ a {
 }
 
 .wrapper--main {
- background: #17191c80, url("/Quiz-box/img/background.jpg") center top no-repeat, url("/Quiz-box/img/background2.jpg") center bottom no-repeat, #17191c80;
+ background: url("/Quiz-box/img/background.png") center top no-repeat, url("/Quiz-box/img/background2.png") center bottom no-repeat;
 }
 
 .container {
