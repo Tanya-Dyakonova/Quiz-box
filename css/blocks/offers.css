@@ -6,14 +6,17 @@
  height: 144px;
 }
 
+.offers__list {
+	display: flex;
+	justify-content: space-between;
+}
+
 .offers__item {
-	display: inline-block;
 	background: #fff;
  min-height: 4px;
  border-radius: 5px;
 	overflow: hidden;
- margin-right: 23px;
- width: 362px;
+ width: calc(100% / 3 - 18px) ;
 }
 
 .offers__item:last-child {

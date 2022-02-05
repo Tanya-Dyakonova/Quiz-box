@@ -1,34 +1,9 @@
 .header {
- position: relative;
- height: 85px;
- margin-bottom: 115px;
-}
-
-.header__container {
-	position: relative;
-}
-
-.logo, .menu, .contacts {
- position: absolute;
-}
-
-.logo {
- top: 15px;
- left: 0px;
-}
-
-.menu {
- left: 425px;
-	top: 50%;
-	transform: translate(0%, -50%);
-}
-
-.contacts {
- top: 22px;
- right: 0px;
-	display: inline-block;
- font-style: normal;
-	text-align: right;
+ padding-top: 20px;
+ margin-bottom: 25px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
 }
 
 .logo__text{
@@ -57,6 +32,11 @@
 
 .menu__item--active .menu__item {
 	color: #741BBA;
+}
+
+.contacts {
+ font-style: normal;
+	text-align: right;
 }
 
 .contacts__phone {

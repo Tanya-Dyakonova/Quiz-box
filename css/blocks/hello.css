@@ -2,8 +2,18 @@
  margin-bottom: 195px;
 }
 
+.hello__container {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ min-height: 575px;
+}
+
+.hello__content {
+ width: 55%;
+}
+
 .hello--title {
- width: 650px;
  font-size: 60px;
  line-height: 1.1;
  margin-bottom: 18px;
