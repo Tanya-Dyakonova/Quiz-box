@@ -2,6 +2,11 @@
  margin-bottom: 145px;
 }
 
+.passed__list {
+	display: flex;
+	justify-content: space-between;
+}
+
 .passed__item {
  position: relative;
  width: 557px;
@@ -42,25 +47,26 @@
 }
 
 .passed__list {
- margin-bottom: 50px;
+ margin-bottom: 55px;
 }
 
 .pagination {
- text-align: center;
+ display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
-.pagination__text, .pagination__list {
- display: inline-block;
- vertical-align: middle;
+.pagination__list {
+	display: flex;
+	align-items: center;
+}
+
+.pagination__item {
+	text-align: center;
 }
 
 .pagination__text {
  margin-right: 25px;
-}
-
-.pagination__item {
- display: inline-block;
- vertical-align: middle;
 }
 
 .pagination__numb {
@@ -70,6 +76,10 @@
  border-radius: 50%;
  font-weight: bold;
  line-height: 32px;
+}
+
+.pagination__numb:hover {
+	background: #8F00FF;
 }
 
 .pagination__item--active .pagination__numb {

@@ -1,44 +1,50 @@
 .about {
- margin-bottom: 53px;
+ margin-bottom: 55px;
+ display: flex;
 }
 
 .about__container {
- position: relative;
  height: 552px;
 }
 
-.about__content, .about__img {
- position: absolute;
- border-radius: 5px;
+.about__content::before {
+ content: "";
+ display: block;
+ width: 489px;
+ height: 505px;
+ background: url("/Quiz-box/img/team.jpg") center center / cover no-repeat;
 }
-.about__img {
- left: 0;
- top: 0;
+
+ .about__content::before, .about__desk {
+  border-radius: 5px;
 }
 
 .about__content {
- z-index: 2;
+ display: flex;
+}
+
+.about__desk {
  background: linear-gradient(71.43deg, #8F00FF 0%, #148CFF 100%), #212121;
- right: 0;
- bottom: 0;
- width: 785px;
- height: 455px;
- padding: 73px 202px 66px 81px;
+ margin-left: -133px;
+ margin-top: 100px;
+ max-width: 785px;
+ min-height: 455px;
+ padding: 70px 210px 70px 75px;
 }
 
 .about__title {
  margin-bottom: 40px;
 }
 
-.about__text {
+.about__desk-text {
  line-height: 27px;
  margin-bottom: 43px;
 }
 
-.about__text p {
+.about__desk-text p {
  margin-bottom: 20px;
 }
 
-.about__text p:last-child {
+.about__desk-text p:last-child {
  margin-bottom: 20px;
 }

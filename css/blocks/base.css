@@ -24,6 +24,11 @@ button {
  box-sizing: border-box;
 }
 
+img {
+ display: block;
+ max-width: 100%;
+}
+
 ul {
  padding: 0;
  margin: 0;
@@ -58,6 +63,8 @@ a {
 .wrapper {
  overflow: hidden;
  min-height: 100%;
+ display: flex;
+ flex-direction: column;
 }
 
 .wrapper--main {

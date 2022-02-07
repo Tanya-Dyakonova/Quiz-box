@@ -1,11 +1,27 @@
 .footer {
- height: 115px;
+ height: 110px;
  position: relative;
- margin-top: 27px;
+ margin-top: 12px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.footer-container {
+	margin-top: auto;
+}
+
+.footer__col {
+	display: flex;
+	align-items: center;
 }
 
 .footer-container__content{
  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.footer__col .logo {
+	margin-right: 130px;
 }
 
 .menu__footer {
@@ -30,9 +46,7 @@
 }
 
 .socials {
- position: absolute;
- top: 24px;
- right: 265px;
+ margin-right: 74px;
 }
 
 .contacts__call {
