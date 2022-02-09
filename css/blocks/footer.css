@@ -1,4 +1,4 @@
-.footer {
+.footer__content {
  height: 110px;
  position: relative;
  margin-top: 12px;
@@ -16,7 +16,7 @@
 	align-items: center;
 }
 
-.footer-container__content{
+.footer__container{
  border-top: 1px solid rgba(255, 255, 255, 0.1);
 }
 
