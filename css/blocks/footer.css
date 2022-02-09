@@ -1,3 +1,7 @@
+.footer {
+	margin-top: auto;
+}
+
 .footer__content {
  height: 110px;
  position: relative;
@@ -5,10 +9,6 @@
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-}
-
-.footer-container {
-	margin-top: auto;
 }
 
 .footer__col {
