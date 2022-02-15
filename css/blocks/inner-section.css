@@ -89,6 +89,7 @@
 .button--theme-black{
  background: #8E8E8E;
  padding: 18px 44px;
+ transition: .3s;
 }
 
 .button--theme-black:hover {

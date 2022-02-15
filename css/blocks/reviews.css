@@ -37,14 +37,20 @@
  align-items: center;
  font-size: 24px;
  font-weight: bold;
- color: #2E77A4;
+ color:#1A1B1E;
  margin-bottom: 11px;
+ transition: .2s;
 }
 
 .review__user:after {
  content: url("/Quiz-box/img/vk-blue.png");
  height: 30px;
  margin-left: 12px;
+}
+
+.review__user:hover {
+ color: #2E77A4;
+ text-decoration-line: underline;
 }
 
 .review__tags {

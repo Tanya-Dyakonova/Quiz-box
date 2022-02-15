@@ -76,6 +76,8 @@
  border-radius: 50%;
  font-weight: bold;
  line-height: 32px;
+ transition: 0.3s all;
+	cursor: pointer;
 }
 
 .pagination__numb:hover {

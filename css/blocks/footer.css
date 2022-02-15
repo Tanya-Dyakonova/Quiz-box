@@ -29,26 +29,6 @@
  left: 290px;
 }
 
-.socials__item {
- display: inline-block;
- vertical-align: middle;
- margin-right: 6px;
-}
-
-.socials__item:last-child {
-	margin-right: 0;
-}
-
-.socials__link {
- display: block;
- width: 36px;
- height: 36px;
-}
-
-.socials {
- margin-right: 74px;
-}
-
 .contacts__call {
  color: #9A9A9A;
  font-size: 11px;

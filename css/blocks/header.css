@@ -28,6 +28,11 @@
 
 .menu__link {
  line-height: 22px;
+	transition: .3s;
+}
+
+.menu__link:hover {
+	color: #741BBA;
 }
 
 .menu__item--active .menu__item {
@@ -47,5 +52,12 @@
 
 .contacts__workhours {
  font-size: 13px;
+	color:#98A4A8;
  text-decoration-line: underline;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.contacts__workhours:hover {
+	color: #fff;
 }

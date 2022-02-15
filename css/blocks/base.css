@@ -90,7 +90,7 @@ a {
  line-height: 19px;
  transition: 0.3s all ;
  display: block;
- max-width: 168px;
+ width: 168px;
  max-height: 55px;
  display: flex;
  justify-content: center;
