@@ -10,51 +10,26 @@
 
 .socials__link {
  display: block;
+	position: relative;
  width: 36px;
  height: 36px;
 }
 
 .socials {
- margin-right: 74px;
-}
-
-.socials__link--tg .socials__link:hover:before {
-	opacity: 1;
-}
-.socials__item--tg .socials__link:hover:after {
-	opacity: 0;
-}
-
-.socials__link--vk .socials__link:hover:before {
-	opacity: 1;
-}
-.socials__item--vk .socials__link:hover:after {
-	opacity: 0;
-}
-
-.socials__link--fb .socials__link:hover:before {
-	opacity: 1;
-}
-.socials__item--fb .socials__link:hover:after {
-	opacity: 0;
-}
-
-.socials__link--inst .socials__link:hover:before {
-	opacity: 1;
-}
-.socials__item--inst .socials__link:hover:after {
-	opacity: 0;
+ margin-right: 94px;
 }
 
 .socials__link:after {
 	content: "";
 	display: block;
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50% -50%);
 	width: 36px; 
 	height: 36px;
- background: url("../../img/css_sprites.png") -10px -10px;
+ background: url("/Quiz-box/img/css_sprites.png");
+	transition: .3s;
 }
 
 .socials__item--tg .socials__link:after {
@@ -70,27 +45,57 @@
 	background-position: -5px -281px;
 }
 
- .socials__link:hover:before {
+.socials__link:before {
 	content: "";
 	display: block;
+	position: absolute;
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%, -50%);
+	transform: translate(-50% -50%);
 	width: 36px; 
 	height: 36px;
- background: url("../../img/css_sprites.png") -10px -66px;
- transition: .3s;
+ background: url("/Quiz-box/img/css_sprites.png");
+	opacity: 0;
+	transition: .3s;
 }
 
-.socials__item--tg .socials__link::before {
+.socials__item--tg .socials__link:before {
 	background-position: -5px -51px;
 }
-.socials__item--vk .socials__link::before {
+.socials__item--vk .socials__link:before {
 	background-position: -5px -143px;
 }
-.socials__item--fb .socials__link::before {
+.socials__item--fb .socials__link:before {
 	background-position: -5px -235px;
 }
-.socials__item--inst .socials__link::before {
+.socials__item--inst .socials__link:before {
 	background-position: -5px -327px;
+}
+
+.socials__item--tg .socials__link:hover:before {
+	opacity: 1;
+}
+.socials__item--tg .socials__link:hover:after {
+	opacity: 0;
+}
+
+.socials__item--vk .socials__link:hover:before {
+	opacity: 1;
+}
+.socials__item--vk .socials__link:hover:after {
+	opacity: 0;
+}
+
+.socials__item--fb .socials__link:hover:before {
+	opacity: 1;
+}
+.socials__item--fb .socials__link:hover:after {
+	opacity: 0;
+}
+
+.socials__item--inst .socials__link:hover:before {
+	opacity: 1;
+}
+.socials__item--inst .socials__link:hover:after {
+	opacity: 0;
 }

@@ -20,6 +20,10 @@
 	align-items: center;
 }
 
+.footer__col--align--right {
+	align-items: baseline;
+}
+
 .footer__col .logo {
 	margin-right: 130px;
 }

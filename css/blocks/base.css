@@ -139,7 +139,7 @@ a {
 
 .title--new:after {
  content: "";
- background: url("../../img/new.png") no-repeat;
+ background: url("/Quiz-box/img/new.png") no-repeat;
  margin-left: 9px;
  width: 42px;
  height: 41.42px;

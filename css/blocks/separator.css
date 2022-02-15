@@ -1,5 +1,5 @@
 .separator {
- background:#17191C url("../../img/separator_bg.png") right 24% bottom no-repeat;
+ background:#17191C url("/Quiz-box/img/separator_bg.png") right 24% bottom no-repeat;
  min-height: 363px;
  display: flex;
  flex-direction: column;
