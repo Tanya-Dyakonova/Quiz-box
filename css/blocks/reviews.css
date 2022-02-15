@@ -39,7 +39,9 @@
  font-weight: bold;
  color:#1A1B1E;
  margin-bottom: 11px;
- transition: .2s;
+ text-decoration: underline transparent;
+ transition: text-decoration-color 300ms;
+ transition: .3s;
 }
 
 .review__user:after {
@@ -50,7 +52,7 @@
 
 .review__user:hover {
  color: #2E77A4;
- text-decoration-line: underline;
+ text-decoration-color:#2E77A4;
 }
 
 .review__tags {

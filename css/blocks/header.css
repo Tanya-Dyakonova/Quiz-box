@@ -84,6 +84,10 @@
 	opacity: 0;
 }
 
+.dropdown__item--break {
+	font-weight: 600;
+}
+
 .dropdown::before {
 	content: "";
 	position: absolute;
